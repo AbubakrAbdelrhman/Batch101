@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<style>
+.signature{
+    margin-top:40px;
+    text-align:left;
+    color:var(--gold);
+    font-weight:600;
+    opacity:0.9;
+}
+:root{
+    --bg1:#0f172a;
+    --bg2:#1e293b;
+    --gold:#d4af37;
+    --light:#f8fafc;
+}
+
+.letter-section{
+    background:linear-gradient(135deg,var(--bg1),var(--bg2));
+    padding:100px 20px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.letter-container{
+    max-width:850px;
+    background:rgba(255,255,255,0.04);
+    backdrop-filter:blur(6px);
+    padding:60px;
+    border-radius:16px;
+    border:1px solid rgba(212,175,55,0.15);
+    box-shadow:0 20px 60px rgba(0,0,0,0.4);
+    color:var(--light);
+    line-height:2;
+    font-size:18px;
+    text-align:right;
+    position:relative;
+    z-index:2;
+}
+
+.letter-title{
+    font-size:26px;
+    font-weight:700;
+    margin-bottom:35px;
+    color:var(--gold);
+}
+
+.sub-heading{
+    margin-top:40px;
+    margin-bottom:20px;
+    font-weight:600;
+    color:var(--gold);
+}
+
+blockquote{
+    margin:30px 0;
+    padding:20px 25px;
+    border-right:4px solid var(--gold);
+    background:rgba(212,175,55,0.08);
+    font-style:italic;
+    font-size:19px;
+}
+
+.quran{
+    color:var(--gold);
+    font-weight:600;
+}
+
+.commitment-list{
+    margin:20px 0 30px 0;
+    padding-right:20px;
+}
+
+.commitment-list li{
+    margin-bottom:10px;
+    position:relative;
+}
+
+.commitment-list li::before{
+    content:"•";
+    color:var(--gold);
+    font-weight:bold;
+    position:absolute;
+    right:-15px;
+}
+
+.pledge{
+    margin-top:40px;
+    font-weight:600;
+    color:var(--gold);
+}
+.whatsapp-btn{
+    display:block;
+    width:fit-content;
+    margin:60px auto 0;
+    padding:14px 25px;
+    background:#25D366;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:30px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+    background:#1ebe5d;
+    transform:scale(1.05);
+}
+.closing{
+    margin-top:50px;
+    font-weight:500;
+    opacity:0.9;
+}
+
+/* ===== Eid ===== */
+.eid-greeting{
+    text-align:center;
+    margin-bottom:50px;
+    padding-bottom:30px;
+    border-bottom:1px solid rgba(212,175,55,0.2);
+}
+
+.eid-title{
+    font-size:30px;
+    color:var(--gold);
+    animation:shine 3s infinite;
+}
+
+@keyframes shine{
+    0%{text-shadow:0 0 5px var(--gold);}
+    50%{text-shadow:0 0 25px var(--gold);}
+    100%{text-shadow:0 0 5px var(--gold);}
+}
+
+.eid-divider{
+    margin-top:25px;
+    height:2px;
+    width:120px;
+    background:linear-gradient(to left, transparent, var(--gold), transparent);
+    margin-inline:auto;
+}
+
+/* 🌙 Moon */
+.letter-section::before{
+    content:"🌙";
+    position:absolute;
+    top:40px;
+    left:40px;
+    font-size:40px;
+    animation:floatMoon 6s ease-in-out infinite;
+}
+
+@keyframes floatMoon{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+}
+
+/* 🎆 Fireworks */
+.fireworks{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:radial-gradient(var(--gold) 1px, transparent 1px);
+    background-size:40px 40px;
+    opacity:0.08;
+    animation:moveStars 20s linear infinite;
+}
+
+@keyframes moveStars{
+    from{transform:translateY(0);}
+    to{transform:translateY(-200px);}
+}
+</style>
+<meta charset="UTF-8">
+<title>رسالة + تهنئة عيد الفطر</title>
+</head>
+<!-- ====== Friendship Letter Section ====== -->
+<section class="letter-section">
+
+    <!-- 🎆 Fireworks Background -->
+    <div class="fireworks"></div>
+
+    <div class="letter-container">
+
+        <!-- ====== Eid Greeting ====== -->
+        <div class="eid-greeting">
+            <h2 class="eid-title">
+                🌙✨ عيدُكم مبارك ✨🌙
+            </h2>
+
+            <p>
+                في هذا المقام المبارك، ومع نفحات <strong>عيد الفطر</strong> التي تملأ القلوب سرورًا،
+                أرفع إليكم أصدق التهاني، وأطيب الدعوات،
+                أن يتقبل الله منا ومنكم الصيام والقيام، وصالح الأعمال،
+                وأن يجعل ما قدمتموه خالصًا لوجهه الكريم.
+            </p>
+
+            <p>
+                تقبل الله طاعاتكم، وأعاد عليكم العيد أعوامًا عديدة،
+                وأنتم في رفعةٍ وعزّ، وصفاء قلب، وسداد طريق.
+            </p>
+
+            <div class="eid-divider"></div>
+        </div>
+
+        <h2 class="letter-title">
+            إلى الرفاق… سلامُ الله عليكم ورحمته وبركاته،
+        </h2>
+
+        <p>
+            إنه من خالطَ مثلَكم فقد كَسِب، ومن حُرِمَ صحبتَكم فقد حُرِمَ، صحبتُكم رفعة،
+            ومجالستُكم غنيمة، وفي القرب منكم صفاءُ نفسٍ وسموُّ هِمّة.
+            وكما قال الفرزدق:
+        </p>
+
+        <blockquote>
+            وإِنَّكَ من قَوْمٍ بِهِمْ يُصْلَحُ الوَرَى<br>
+            ويَغْوَى بِهِمْ مَنْ غَوَى ويَرْشَدُ
+        </blockquote>
+
+        <h3 class="sub-heading">أما بعد،</h3>
+
+        <p>
+            إلى رجالات الدفعة بعد المئة … لقد مررنا بتجربةٍ لم تكن هيّنة،
+            وسياساتٍ إدارية أعادت ترتيب أوراقنا قسرًا، فنُقلنا من الدفعة ١٠٠ إلى ١٠١.
+            ظنّ بعضُنا أنّ في الأمر انتقاصًا، أو كسرًا لخاطر، أو تعطيلًا لمسار.
+            لكنّ الأيام كشفت أن ما ظننّاه انكسارًا كان انعطافًا إلى رفعة،
+            وأن ما حسبناه تأخيرًا كان إعدادًا،
+            وأن انتقالنا إليكم لم يكن خسارة رقمٍ، بل ربح رجال،
+            يقول جل في علاه:
+            <span class="quran">(وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ)</span>.
+        </p>
+
+        <p>
+            أمامكم أعاهدكم: أن أبذل وسعي كلّه لرفعتنا أكاديميًا ودنيويًا ما استطعت.
+            لا لأنّي خيركم؛ فـوائل أرسخ مني في الطب، وابن برير أعلم مني بعلوم القرآن،
+            وكلُّ واحدٍ منكم يتقدّم عليّ في باب.
+        </p>
+
+        <p>
+            لكن عزمي أن نجتمع قوةً واحدة؛
+        </p>
+
+        <ul class="commitment-list">
+            <li>نتشارك المهارة قبل أن نحتكرها</li>
+            <li>نُسابق في نشر المعلومة لا في كتمانها</li>
+            <li>نرفع بعضنا بعضًا حتى لا يبقى بيننا متأخر</li>
+        </ul>
+
+        <p>
+            غايتنا أن نتخرّج صفًا واحدًا، سواسية في الشهادة،
+            راسخين في الدين، متمكّنين في الدنيا.
+        </p>
+
+        <p class="pledge">
+            هذا عهدي لكم: أن أكون جنديًا في رفعتكم،
+            فإن علت الدفعة… عليتُ بها.
+        </p>
+
+        <p class="closing">
+            والسلام عليكم ورحمة الله وبركاته.
+        </p>
+<p class="signature">
+    من أبوبكر عبدالرحمن
+</p>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/249963390961?text=%D8%AA%D9%85%20%D8%AA%D9%87%D9%83%D9%8A%D8%B1%20%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8%D9%83%20%D8%A8%D9%86%D8%AC%D8%A7%D8%AD%20%D9%88%20%F0%9F%98%81%20%D8%A3%D9%86%D8%A7%20%D8%A3%D9%85%D8%B2%D8%AD%20%F0%9F%98%81%0A%D8%A3%D8%AD%D8%A8%D9%83%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%84%D9%87%20%D9%8A%D8%A7%20%D8%B9%D8%B2%D9%8A%D8%B2%D9%8A%20%E2%9D%A4%EF%B8%8F%E2%9D%A4%EF%B8%8F" 
+   class="whatsapp-btn" target="_blank">
+    💬 تواصل عبر واتساب
+</a>
+    </div>
+</section>
+<\html>
+  
